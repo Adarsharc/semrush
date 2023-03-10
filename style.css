@@ -2,4 +2,96 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.nav-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111317;
+  color: #a1a6af;
+  font-size: 8px;
+  height: 40px;
+  font-weight: 500;
+}
+
+.nav-section {
+  height: 100%;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.logo {
+  width: 130px;
+  height: 16px;
+  margin-right: 20px;
+}
+
+.link-section {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  padding: 7px;
+}
+
+.log-section {
+  display: flex;
+  align-items: center;
+}
+
+.space {
+  margin: 10px;
+}
+
+.down-arrow {
+  margin-left: 4px;
+}
+
+.new {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #00be30;
+  font-size: 6px;
+  height: 10px;
+  width: 15px;
+  margin-left: 3px;
+}
+.new-link {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  border-radius: 3px;
+  width: 40px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+.log-in {
+  border: 1px solid #a1a6af;
+}
+
+.sign-up {
+  background-color: #01c999;
+  color: white;
 }
