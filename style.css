@@ -283,7 +283,7 @@
 
 .quote_main-section {
   width: 100%;
-  height: 2000px;
+  height: 2500px; /*  adject   */
   background-color: white;
   position: relative;
 }
@@ -324,18 +324,26 @@
   border-radius: 5px;
   font-size: 9px;
   font-weight: 500;
-  /* margin-top: 10px; */
+  color: #8e9096;
 }
+
 .icon ion-icon {
   font-size: 24px;
   margin-bottom: 15px;
-  color: #8e9096;
 }
 .notice {
   width: 100%;
   height: 3px;
-  border-radius: 3px;
+  border-radius: 5px;
   background-color: #a1a6af25;
+}
+
+.active-notice {
+  background-color: #421983a9;
+}
+
+.features:hover {
+  color: #421983a9;
 }
 
 .features-name {
@@ -585,4 +593,122 @@
   width: 300px;
   top: -70px;
   right: -55px;
+}
+
+/****** ceo section *****/
+
+.hat-section {
+  width: 80%;
+  /* background-color: #00be30; */
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.ceo-img_section {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.hat-content h1 {
+  margin-top: 100px;
+  font-size: 25px;
+}
+
+.hat-content p {
+  margin: 10px 0;
+  font-size: 10px;
+}
+.hat-offers {
+  text-align: start;
+  width: 95%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.hat-list_item {
+  font-size: 9px;
+  color: rgba(0, 0, 0, 0.918);
+  display: flex;
+  justify-content: start;
+  margin: 6px 0;
+  line-height: 15px;
+  font-weight: 300;
+}
+
+.har-content_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hat-list_item ion-icon {
+  color: #ff632f;
+  font-size: 14px;
+}
+
+.hat-checked {
+  padding-right: 8px;
+}
+
+.hat-btn {
+  width: 250px;
+}
+
+/**************************/
+
+.marketers-section {
+  margin: 0 auto;
+  margin-top: 120px;
+  width: 90%;
+  /* background-color: #00be30; */
+  display: flex;
+  justify-content: center;
+}
+
+.marketers-wrapper {
+  /* background-color: #01c999; */
+  width: 80%;
+}
+
+.img-love {
+  display: inline-block;
+  padding: 5px;
+}
+
+.marketers-section h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.marketers-header {
+  margin-bottom: 30px;
+}
+
+.market-features {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 10px;
+}
+
+.market-feature {
+  background-color: white;
+  border: 1px solid #5e60634b;
+  padding: 7px 12px;
+  border-radius: 10px;
+}
+
+.colored-feature {
+  color: white;
+  background-color: #421983;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.market-feature:hover {
+  border: 1px solid #421983;
+  cursor: pointer;
 }
