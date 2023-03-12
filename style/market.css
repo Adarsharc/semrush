@@ -1,0 +1,126 @@
+/**** market section****/
+
+.marketers-section {
+    margin: 0 auto;
+    margin-top: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .marketers-wrapper {
+    width: 95%;
+  }
+  
+  .img-love {
+    display: inline-block;
+    padding: 15px;
+  }
+  
+  .marketers-section h1 {
+    font-size: 42px;
+    text-align: center;
+    letter-spacing: 1.5px;
+  }
+  
+  .marketers-header {
+    margin-bottom: 30px;
+  }
+  
+  .market-features {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+  }
+  
+  .market-feature {
+    background-color: white;
+    border: 1px solid #5e60634b;
+    padding: 12px 18px;
+    border-radius: 20px;
+  }
+  
+  .colored-feature {
+    color: white;
+    background-color: #421983;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+  
+  .market-feature:hover {
+    border: 1px solid #421983;
+    cursor: pointer;
+  }
+  
+  /******  slider section *******/
+
+.slider-section{
+  background-color:#c9edff;
+  border-radius: 20px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 150px;
+
+}
+
+.slider-container{
+  padding:60px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-arrow_secton{
+  display: flex;
+  width: 250px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slider-number{
+  font-size: 24px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.right-arrow, .left-arrow{
+  font-size: 30px;
+  color: #5254588a;
+
+}
+
+.profile_details{
+  text-align: center;
+}
+
+.slider-header{
+  margin-top: 50px;
+  font-size: 24px;
+  color: #111317cb;
+  text-align: center;
+  width: 100%;
+}
+
+
+.slider-image{
+  margin-top: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+
+}
+
+.slider-profile_name{
+  font-size: 18px;
+  color:#1c1c1d;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.slider-profile_position{
+  font-size: 16px;
+  color:#5254588a;
+  margin: 8px 0;
+}

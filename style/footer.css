@@ -1,0 +1,193 @@
+
+
+/**** Trial section ****/
+
+.start-trial_section{
+  width: 100%;
+  background-color: #421983;
+  height: 320px;
+  margin-top: 50px;
+}
+
+.free-trial_section{
+  color: white;
+  height: 190px;
+  padding: 40px 0;
+}
+
+.trial-details{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trail-header{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.trial-details p{
+  font-size: 18px;
+}
+.trial-btn{
+  margin-top: 30px;
+  width: 400px;
+  font-size: 18px;
+}
+
+/******** footer*********/
+/* contact */
+
+.footer_section{
+  width: 100%;
+  background-color:#111317;
+  height: 500px;
+}
+
+.footer-main_center{
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  
+  .contact-data_block{ 
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding-top: 10px;
+    color: #898d9a;
+  }
+  
+  .left-contact{
+    border: 1px solid #898d9a;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+  }
+  
+  .left-contact ion-icon{
+    margin-right: 8px;
+     color: #898d9a;
+     font-size: 20px;
+  }
+  
+.flex-contact{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+  .usa-data{
+    font-size: 12px;       
+    margin-left: 30px;       
+  }
+  
+  .get-start-btn{
+  
+    background-color: #01c999;
+    color: rgba(255, 255, 255, 0.918);
+    font-weight: 600;
+    padding: 12px 30px;
+    width: 320px;
+    border-radius:4px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px; 
+    margin-top: 30px;
+  }
+  
+  .right-contact a{
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-decoration: underline;
+    color: #d6d6d6a6;
+    font-weight: 500;
+    font-size: 12px; 
+    
+  }
+  
+  /* foooter menu */
+
+  .footer-menu{
+    color: #898d9a;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+  }
+  
+  .footer-meanu_element{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-meanu_element h4{
+     color: white;
+     margin: 14px 0;  
+     font-size: 14px;
+  }
+  
+  .footer-meanu_element li{
+    list-style-type: none;  
+    margin-bottom: 10px;
+  }
+  
+  .social-block{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .social-set{
+    display: flex;
+    justify-content:start;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .social-icon_block{
+    padding-right: 15px;
+    
+  }
+
+
+
+
+  /*  copyright section */
+  
+  .copywrite-section{
+    background-color:black;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  
+  .copyright-center_section{
+    padding-top:10px ;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .logo-footer{
+    width: 250px;
+    padding-right: 40px;
+  }
+  
+  .copyright-year{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.904);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

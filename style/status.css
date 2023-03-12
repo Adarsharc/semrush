@@ -1,0 +1,66 @@
+/********status part *******/
+
+.status-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    color: rgba(0, 0, 0, 0.753);
+  }
+  
+  .status-wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .btn-status {
+    width: 250px;
+    font-size: 20px;
+  }
+  
+  .status-bars {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 20px;
+  }
+  
+  .status-bar {
+    width: 180px;
+    height: 120px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+  }
+  .status-bar h1 {
+    font-size: 40px;
+  }
+  .status-bar p {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  .status-content-block {
+    margin-right: 50px;
+  }
+  .status-content-block p {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+    margin-bottom: 60px;
+  }
+  .status-content-block h1 {
+    font-size: 35px;
+  }
+  
+  .static-img {
+    position: absolute;
+    z-index: -1;
+    width:470px;
+    top: -110px;
+    right: -60px;
+  }
+  
