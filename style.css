@@ -712,3 +712,74 @@
   border: 1px solid #421983;
   cursor: pointer;
 }
+
+/******  slider section *******/
+
+.slider-section{
+  background-color:#c9edff;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 25px;
+
+}
+
+.slider-container{
+  padding:45px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-arrow_secton{
+  display: flex;
+  width: 180px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slider-number{
+  font-size: 12px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.right-arrow, .left-arrow{
+  font: 12px;
+  color: #616263be
+
+}
+
+.profile_details{
+  text-align: center;
+}
+
+
+.slider-image{
+  margin-top: 25px;
+  border-radius: 50%;
+  border: 1px solid white;
+
+}
+
+.slider-profile_name{
+  font-size: 10px;
+  color:#1c1c1d;
+  font-weight: 600;
+  margin: 4px 0;
+}
+
+.slider-profile_position{
+  font-size: 10px;
+  color:#5254588a;
+  margin: 5px 0;
+}
+
+
+.slider-header{
+  margin-top: 30px;
+  font-size: 18px;
+  color: #111317cb;
+  text-align: center;
+  width: 100%;
+}
