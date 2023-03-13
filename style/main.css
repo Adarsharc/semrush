@@ -13,21 +13,7 @@
   margin-top: 0px;
 }
 
-.position {
-  position: absolute;
-  width: 450px;
-  z-index: -5;
-}
 
-.purple-round {
-  top: -40px;
-  right: -160px;
-}
-
-.green-round {
-  bottom: -150px;
-  left: -150px;
-}
 
 /* ***********************/
 
